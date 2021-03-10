@@ -8,6 +8,8 @@ febFileName=fullfile(pathName_FEB,febFileNamePart);
 [febXML,nodeStruct,elementCell]=import_FEB(febFileName);
 
 
+
+%% Add comment
 %% Plotting the example model surfaces
 fontSize=15;
 faceAlpha1=0.5;
